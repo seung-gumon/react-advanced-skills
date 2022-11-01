@@ -1,7 +1,7 @@
 import React, {ReactNode, useMemo} from 'react';
 import {createPortal} from "react-dom";
-import {GET_CHILDREN_TYPE} from "./Components/Dialog/DialogUtil";
-import {DIALOG_BUTTON_TYPE, DIALOG_TITLE_TYPE, DialogLabelButton, DialogTitle} from "./Components/Dialog/DialogElement";
+import {GET_CHILDREN_TYPE} from "./DialogUtil";
+import {DIALOG_BUTTON_TYPE, DIALOG_TITLE_TYPE, DialogLabelButton, DialogTitle} from "./DialogElement";
 
 
 interface IDialogMain {
