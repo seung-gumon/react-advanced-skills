@@ -1,13 +1,17 @@
 import React, {useMemo, useState} from 'react';
 import {Dialog} from "./Components/Dialog/Dialog";
 import {RenderList} from "./List";
-import {Breadcrumb, BreadcrumbItem} from "./BreadCrumb";
-import {Route, Router} from "react-router-dom";
+import {CounterProvider} from "./contexts/CounterContext";
+import {PlusMinus} from "./PlusMinus";
+
 
 
 function App() {
     return (
         <>
+            <CounterProvider>
+                <PlusMinus/>
+            </CounterProvider>
             <RenderList/>
             <Dialog isOpen={true}>
                 <Dialog.Title>제목</Dialog.Title>
