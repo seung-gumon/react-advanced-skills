@@ -1,5 +1,5 @@
 import React, {useMemo, useState} from 'react';
-import {Dialog} from "./Components/Dialog/Dialog";
+import {Dialog} from "./components/Compound/Dialog";
 import {RenderList} from "./List";
 import {CounterProvider} from "./contexts/CounterContext";
 import {PlusMinus} from "./PlusMinus";
@@ -7,6 +7,10 @@ import {PlusMinus} from "./PlusMinus";
 
 
 function App() {
+
+
+
+
     return (
         <>
             <CounterProvider>

@@ -5,7 +5,7 @@ import React from "react";
 
 /** Label Button **/
 export function DialogLabelButton({children}: DialogLabelButtonProps) {
-    return <div>{children}</div>
+    return <button>{children}</button>
 }
 export const DIALOG_BUTTON_TYPE = (<DialogLabelButton/>).type;
 
